@@ -26,7 +26,7 @@ This project presents an interactive **Power BI dashboard** built to analyze Ube
 - Booking Trends by Day Name
 - Usage spikes and low-demand intervals clearly visualized
 
-![Time Analysis](images/Time Analysis.png)
+![Time_Analysis](images/Time Analysis.png)
 
 ---
 
