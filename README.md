@@ -1,4 +1,4 @@
-# 🚖 Uber Trip Analysis Dashboard (Power BI)
+# 🚖 Uber Trip Analysis Dashboard
 
 This project presents an interactive **Power BI dashboard** built to analyze Uber ride data for June 2024. It provides deep insights into trip timing, fare metrics, vehicle usage, payment patterns, and location-based trends. The dashboard enables stakeholders to explore ride patterns, peak hours, customer behavior, and operational efficiency in a highly visual and dynamic format.
 
