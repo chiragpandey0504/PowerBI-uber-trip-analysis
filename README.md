@@ -25,6 +25,7 @@ Key visual elements:
   - **Total Bookings by Location**
   - **Most Preferred Vehicle for Pickup**
 
+
 ![Overview](images/overview.png)
 
 ---
@@ -44,6 +45,7 @@ Visual insights:
   - Activity by **Day of Week**
 - Heatmaps showing intensity of bookings by **Hour vs Weekday**
 - Clear visibility into weekday vs weekend demand shifts
+
 
 ![Time Analysis](images/Time_Analysis.png)
 
