@@ -8,10 +8,12 @@ This project presents an interactive **Power BI dashboard** built to analyze Ube
 
 ### 1️⃣ Overview Analysis
 
-- Total bookings and revenue KPIs  
-- Trip breakdowns by payment type, vehicle, and time of day  
-- Most frequent pickup and drop-off points  
-- Farthest trip and location-based summaries
+- Key KPIs: Total Bookings, Revenue, Trip Distance, Average Trip Time
+- Breakdowns by Payment Type (e.g., Uber Pay, Cash, Wallet)
+- Day vs Night Trip Comparison
+- Vehicle Type Distribution
+- Most Frequent Pickup and Drop-off Points
+- Farthest Trip Route
 
 ![Overview](images/overview.png)
 
@@ -19,9 +21,10 @@ This project presents an interactive **Power BI dashboard** built to analyze Ube
 
 ### 2️⃣ Time Analysis
 
-- Bookings by pickup hour and day name  
-- Heatmap showing ride density by hour and weekday  
-- Average booking value and distance over time
+- Bookings by Hour of Day and Day of Week
+- Heatmap showing booking density by Hour vs Weekday
+- Booking Trends by Day Name
+- Usage spikes and low-demand intervals clearly visualized
 
 ![Time Analysis](images/Time Analysis.png)
 
@@ -52,7 +55,8 @@ This table contains granular trip-level data including:
 This reference table maps numeric location IDs to meaningful area names:
 
 - **LocationID** – Unique key for each location  
-- **Location** – Name of the neighborhood or area  
+- **Location** – Name of the neighborhood or area
+- **City** – City Name
 
 This mapping enables aggregation and analysis at the area level (pickup/drop-off trends).
 
@@ -60,22 +64,28 @@ This mapping enables aggregation and analysis at the area level (pickup/drop-off
 
 ## 💡 Key Insights
 
-- **Peak usage** observed between 8 AM and 6 PM on weekdays  
-- **UberX** dominates the vehicle choice with highest booking share  
-- **Penn Station/Madison Sq West** and **Upper East Side North** are the top pickup and drop-off points  
-- **Weekend nights** see a rise in longer trips and higher surge fees  
+- 📈 **UberX leads the market** with nearly 39K bookings, followed by Uber Comfort and Uber Black.
+- 🕒 **Peak activity observed between 8:00 AM – 6:00 PM**, especially on weekdays.
+- 📍 **Penn Station/Madison Sq West** is the most frequent pickup point, while **Upper East Side North** dominates drop-offs.
+- 🌙 **Night Trips (post 5 PM and before 6 AM)** account for 65% of rides, indicating strong late-hour demand.
+- 🗓️ **Weekend bookings (especially Saturday and Sunday)** are significantly higher, peaking above 19K on Sundays.
+- 📊 **Payment via Uber Pay dominates** with 67% share, followed by Cash (32%).
+- 🛣️ The **longest trip** was from **Lower East Side → Crown Heights North**, spanning **144.1 miles**.
+- 🔥 The **booking heatmap** shows strong early morning and evening demand during weekends, with lighter activity during late-night weekday hours.
 
 ---
 
+## 🛠 Tools Used
+
+- **Power BI Desktop**
+- DAX for calculated columns and KPIs  
+- Interactive visuals using slicers and drill-through  
+- Bookmarks and dynamic titles for UX enhancement
 
 ---
 
 ## 📎 Author
 
-**Chirag Pandey**  
-📧 [Your email or portfolio link, optional]
-
----
-
-Feel free to fork this project, use the dataset, or suggest improvements via pull requests!
-
+_Chirag Pandey_  
+– Email: chiragpandey0504@gmail.com  
+– GitHub: [@chiragpandey0504](https://github.com/chiragpandey0504)
